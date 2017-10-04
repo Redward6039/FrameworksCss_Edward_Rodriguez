@@ -1,5 +1,6 @@
 .barra-superior{
   margin: 2em;
+  opacity: 0.8;
 }
 .btn{
   color: black;
@@ -8,9 +9,13 @@
 .logo{
   width: 5em;
   float: left;
-  }
-  @media (max-width: 600px) {
-    .columna-grupos{
-      padding: 0 !important;
-    }
-  }
+}
+
+body{
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/fondo.jpg");
+  width: 100%;
+  height: 100%;
+}

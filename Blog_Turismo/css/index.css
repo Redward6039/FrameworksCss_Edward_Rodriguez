@@ -1,0 +1,17 @@
+.barra-superior{
+  min-height: 5rem;
+}
+
+div[class*="columna"]{
+  min-height: 50rem;
+}
+.logo{
+  width: 110px;
+  margin-top: 0.5rem;
+  float: left;
+  }
+  @media (max-width: 600px) {
+    .columna-grupos{
+      padding: 0 !important;
+    }
+  }

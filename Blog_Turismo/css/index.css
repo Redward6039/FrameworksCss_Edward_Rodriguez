@@ -1,13 +1,12 @@
 .barra-superior{
-  min-height: 5rem;
+  margin: 2em;
+}
+.btn{
+  color: black;
 }
 
-div[class*="columna"]{
-  min-height: 50rem;
-}
 .logo{
-  width: 110px;
-  margin-top: 0.5rem;
+  width: 5em;
   float: left;
   }
   @media (max-width: 600px) {
